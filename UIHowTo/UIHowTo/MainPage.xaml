@@ -4,7 +4,44 @@
              x:Class="UIHowTo.MainPage">
 
     <StackLayout>
-               
+        
+        <Label Text="Discover" TextColor="Black" FontSize="35" FontAttributes="Bold" Margin="15"/>
+
+        <Frame HeightRequest="280" WidthRequest="140" 
+               BackgroundColor="White" Padding="0" CornerRadius="10"
+               HasShadow="True"
+               Margin="10"
+               HorizontalOptions="CenterAndExpand">
+            <Grid>
+                <StackLayout BackgroundColor="Black">
+                    <Image Source="https://images.pexels.com/photos/1679772/pexels-photo-1679772.jpeg" 
+                       VerticalOptions="FillAndExpand" Opacity="0.8"
+                       Aspect="AspectFill" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Discover" TextColor="White" FontSize="18" 
+                           FontAttributes="None" Margin="15" 
+                           VerticalOptions="EndAndExpand"/>
+                    
+                    <StackLayout Orientation="Horizontal" Margin="15, 10, 0, 0">
+                        <Image Source="https://static.thenounp
+                               roject.com/png/6399-200.png" 
+                                HeightRequest="20"
+                               Aspect="AspectFit" />
+                        <Label Text="Noruega" TextColor="White" FontSize="16" 
+                               FontAttributes="None"
+                               VerticalOptions="EndAndExpand"/>
+                    </StackLayout>
+                    
+                </StackLayout>
+
+            </Grid>
+        </Frame>
+        
     </StackLayout>
 
 </ContentPage>
+    
+    
+    
